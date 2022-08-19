@@ -17,7 +17,7 @@ public class Exercicio13 {
 		
 		teclado.close();
 		
-		for(int c = 1; c < 11; c++)
+		for(int c = 1; c <= 10; c++)
 		{
 			int mult = n * c;
 			System.out.println(n + " x " + c + " = " + mult);
